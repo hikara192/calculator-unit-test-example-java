@@ -30,6 +30,12 @@ public class CalculatorTest {
 	}
 
 	@Test
+	public void testPower() {
+		Calculator calculator = new Calculator();
+		Assert.assertEquals(1024, calculator.power(2, 10));
+	}
+
+	@Test
 	public void testDivide() {
 		Calculator calculator = new Calculator();
 		Assert.assertEquals(2, calculator.divide(6, 3));
