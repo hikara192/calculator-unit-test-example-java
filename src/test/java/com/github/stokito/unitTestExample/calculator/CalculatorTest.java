@@ -36,6 +36,12 @@ public class CalculatorTest {
 	}
 
 	@Test
+	public void testPercent() {
+		Calculator calculator = new Calculator();
+		Assert.assertEquals(250.0, calculator.percent(1000, 25), 0.0001);
+	}
+
+	@Test
 	public void testDivide() {
 		Calculator calculator = new Calculator();
 		Assert.assertEquals(2, calculator.divide(6, 3));

@@ -18,6 +18,10 @@ public class Calculator {
 		return a * b;
 	}
 
+	public double percent(double value, double percent) {
+		return value * percent / 100.0;
+	}
+
 	public long power(int base, int exponent) {
 		long result = 1;
 		for (int i = 0; i < exponent; i++) {
