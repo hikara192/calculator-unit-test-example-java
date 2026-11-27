@@ -1,7 +1,21 @@
-Calculator unit test example in Java
-===============
+# Calculator unit test example in Java
 
-This project is demo for article for beginners about unit testing http://stokito.blogspot.com/2013/02/blog-post_27.html (sorry, currently only in Russian).
+Учебный проект для лабораторных работ по дисциплине «Введение в разработку
+программного обеспечения».
 
-You should use Maven to build project.
-Also I would like to recommend you edit code Intellij Idea.
+**Студент:** Лукьянов Никита Сергеевич  
+**Группа:** ИТ-19
+
+## Сборка и тесты
+
+```bash
+mvn test
+mvn package
+```
+
+## История изменений
+
+- исходный код калькулятора;
+- добавлен тест умножения;
+- добавлена ветка `feature/power` со степенью числа;
+- добавлена ветка `feature/percent` (изменения «коллеги»).
